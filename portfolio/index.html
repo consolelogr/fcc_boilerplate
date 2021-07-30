@@ -10,26 +10,60 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"> 
   <style>
+   
    body,html{border:0;margin:0}
-   .box{border:0;background:#777;height:auto}
+   button{padding:1rem;background: dodgerblue;border-radius: 1rem;}
+   .box{background:#444;height:auto;padding: 2vh 0 2vh 0;margin-top: 30px;}
    .innerbox{padding:5vw;height:auto;width:90vw;
     color: #eee;
   } 
-  header{margin: 4vh 0 4vh 5vw}
-   h1{    font-family: 'Play', sans-serif;text-shadow: 0 0 1px #777}
+  h1{}
+  #box2{background: #eee;}
+  #innerbox2{color:#333}
+  .header1 {
+    float:left;
+    transform: translate(-120,-220);
+  }
+  header{margin: 7vh 0 0 5vw}
+   h1{font-family: 'Play', sans-serif;text-shadow: 0 0 1px #777}
+   footer{
+     background:#888;
+     min-height: 7vh;
+     text-align: center;
+   }
+   img {height:60px;text-align:right;border-radius:50%;margin-top:-20px;margin-right: 10px;
+  border:7px groove}
   </style>
 
 </head>
 <body>
-  <header><h1>Webbi Teemu</h1><span><img src="" alt=""></span></header>
+  <header>
+    <div class="header1">
+    <img src="./teemu.jpg" alt=""></div><h1> Webbi Teemu </h1></header>
+  
   <div class="box">
     <div class="innerbox">
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellat molestias harum explicabo non quaerat facilis sunt est, iste fugit fugiat atque beatae magni quibusdam molestiae eius ducimus impedit possimus illo placeat, accusantium velit. Dolorem eum libero facilis, iure ex pariatur sint, recusandae veniam cupiditate earum reprehenderit nesciunt et? Eius corporis, nulla odit, numquam voluptas minus corrupti ea a, cupiditate natus quidem velit vitae nesciunt accusantium molestiae labore delectus inventore. Repellendus velit dolor dicta architecto ipsa perspiciatis, nemo provident nam in, dolorum vero, molestias laboriosam porro id harum ex quidem delectus? Nemo fugit inventore odio harum consequatur illum, officia asperiores.
-     <h2>Alk. 200€</h2> 
+     <h2>Wordpress sivut</h2>
+     <h3>Alk. 200€</h3> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe amet dolorum, aliquam cupiditate repellendus aspernatur explicabo labore asperiores quibusdam enim.
      <br>
+     <br> 
      <button>Lue lisää Wordpress asennuksesta</button>
     </div>  
   </div>
-  
+  <div class="box" id="box2"  >
+    <div class="innerbox" id="innerbox2">
+     <h2>Kustomoidut sivut</h2>
+     <h2>Alk. 300€</h2> 
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, nostrum! Aliquam qui mollitia quibusdam sint.
+     <br> <br>
+     <button>Lue lisää Kustomoitavasta verkkosivusta</button>
+    </div>  
+  </div>
+  <footer>
+copyright 2021 (c) Teemu Vesterinen
+<br>
+<a href="https://www.consolelogger.com">Näyteikkuna</a>
+
+  </footer>
 </body>
 </html>
